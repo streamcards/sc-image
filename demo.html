@@ -1,5 +1,6 @@
 <!doctype html>
 <html>
+
 <head>
   <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes">
   <title>sc-image Demo</title>
@@ -8,11 +9,23 @@
   <link rel="import" href="sc-image.html">
 
 </head>
+
 <body unresolved>
 
   <p>An `sc-image` looks like this:</p>
 
-  <sc-image id="image" src="cat.png" width="320" aspect="4:3" overflow="top"></sc-image>
+  <sc-image src="cat.png" width="320" aspect="4:3" overflow="top"></sc-image>
+  <sc-image id="loadLater" src=""></sc-image>
 
-  </body>
+  <script>
+    var img = document.querySelector('#loadLater');
+    img.setAttribute('src', 'cat.png');
+
+    var img2 = document.createElement('sc-image');
+    img2.setAttribute('src', 'cat.png');
+    img.parentNode.insertBefore(img2, img);
+    img2.setAttribute('width', '400');
+  </script>
+</body>
+
 </html>

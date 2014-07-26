@@ -40,12 +40,10 @@ Element providing solution to no problem in particular.
 
     z: 1,
 
-    observe: {
-      width: 'resize',
-      height: 'resize'
-    },
-
     ready: function() {
+
+      this.resize();
+
       this.addEventListener('mouseover', function() {
         this.z = 2;
       });
