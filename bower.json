@@ -1,13 +1,32 @@
 {
   "name": "sc-image",
-  "version": "0.0.0",
-  "keywords": "seed, polymer, web-components",
+  "version": "0.0.1",
+  "keywords": [
+    "Polymer",
+    "web-components",
+    "streamcards",
+    "image"
+  ],
   "main": "sc-image.html",
   "dependencies": {
-    "polymer": "Polymer/polymer#~0.3.1"
+    "polymer": "~0.3.3"
   },
   "devDependencies": {
     "platform": "Polymer/platform#~0.3.4",
     "paper-shadow": "Polymer/paper-shadow#~0.3.4"
-  }
+  },
+  "homepage": "https://github.com/streamcards/sc-image",
+  "authors": [
+    "Jakob Hohlfeld <jakob.hohlfeld@netronaut.de>"
+  ],
+  "description": "Element providing a more elaborate image tag.",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "../",
+    "test",
+    "tests"
+  ]
 }
