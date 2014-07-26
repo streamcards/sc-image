@@ -9,10 +9,7 @@
   ],
   "main": "sc-image.html",
   "dependencies": {
-    "polymer": "~0.3.3"
-  },
-  "devDependencies": {
-    "platform": "Polymer/platform#~0.3.4",
+    "polymer": "~0.3.3",
     "paper-shadow": "Polymer/paper-shadow#~0.3.4"
   },
   "homepage": "https://github.com/streamcards/sc-image",
