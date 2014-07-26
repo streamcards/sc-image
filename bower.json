@@ -1,0 +1,13 @@
+{
+  "name": "sc-image",
+  "version": "0.0.0",
+  "keywords": "seed, polymer, web-components",
+  "main": "sc-image.html",
+  "dependencies": {
+    "polymer": "Polymer/polymer#~0.3.1"
+  },
+  "devDependencies": {
+    "platform": "Polymer/platform#~0.3.4",
+    "paper-shadow": "Polymer/paper-shadow#~0.3.4"
+  }
+}
